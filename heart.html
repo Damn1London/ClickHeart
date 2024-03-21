@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+content="width=device-width">
+    <title>For Haileigh</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <p id="test" onclick="myfunction()"> Click on me Haileigh!!!! </p>
+    <div class="heart"></div>
+    <script>
+        function myfunction()
+        {
+            var randomStrings = ["I love you with all my heart!!!!", "Best GF award goes to you!!!!","You are amazing!!!!","Strongest person I know!!!!","You are the best!!!!","Proud of you always!!!!", "Academic weapon fr!!!!","Prettiest Girl of all time!!!!"]
+            var randomIndex = Math.floor(Math.random() * 8); 
+            document.getElementById("test").innerHTML = randomStrings[randomIndex]; 
+        }
+        src="script.js"
+    </script>
+</body>
+</html>
